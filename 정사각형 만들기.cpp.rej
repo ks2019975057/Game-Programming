@@ -1,9 +1,0 @@
-diff a/정사각형 만들기.cpp b/정사각형 만들기.cpp	(rejected hunks)
-@@ -0,6 +0,7 @@
- {
- 	int n;
- 	printf("���簢�� �׸���\n\n");
-+	printf("���簢���� ����(�ִ� 37)��\n");
- 	printf("�Է��ϰ� Enter>");
- 	scanf("%d", &n);
- 	draw_square(n);
