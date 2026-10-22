@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <windows.h>
-int calc frequency(int octave, int inx);
+int calc_frequency(int octave, int inx);
 int main (void)
 {
 	//int index[]={0, 2, 4, 5, 7, 9, 11, 12};
@@ -11,10 +11,10 @@ int song[] = { 7, 7, 9, 9, 7, 7, 4,
                 7, 4, 2, 4, 0 };
 
 
-int duration[] = { 200, 200, 200, 200, 200, 200, 400,
-                       200, 200, 200, 200, 400,
-                       200, 200, 200, 200, 200, 200, 400,
-                       200, 200, 200, 200, 400 };
+int duration[] = { 200, 200, 200, 200, 200, 200, 800,
+                       200, 200, 200, 200, 800,
+                       200, 200, 200, 200, 200, 200, 800,
+                       200, 200, 200, 200, 800 };
 
     int freq[24];
     int i;
