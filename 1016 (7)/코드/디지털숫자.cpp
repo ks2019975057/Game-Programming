@@ -77,6 +77,8 @@ int main(void)
 			number_check(num, line);
 		printf("\n");
 	}
+	getchar();
+	getchar();
 	return 0;
 }
 

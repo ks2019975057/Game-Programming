@@ -19,5 +19,7 @@ int main(void)
 	}
 	for(i=0;i<=5;i++)
 		printf("%2d\n", lotto[i]);
+	getchar();
+	getchar();
 	return 0;
 }

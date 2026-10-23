@@ -15,7 +15,9 @@ int main(void)
     trump card[52];
     make_card(card);
     display_card(card);
-    return 0;
+    getchar();
+	getchar();
+	return 0;
 }
 
 void make_card(trump m_card[]) // 카드 생성 

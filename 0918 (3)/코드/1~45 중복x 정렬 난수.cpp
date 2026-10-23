@@ -34,6 +34,8 @@ int main(void)
 		}
 	}
 	selection_sort(lotto, 6);
+	getchar();
+	getchar();
 	return 0;
 }
 

@@ -11,6 +11,8 @@ int main(void)
 		printf("%c\n", number[i]);
 	for(i=length;i>=0;i--)	//³·Àº ´ÜÀ§ 
 		printf("%c\n", number[i]);
+	getchar();
+	getchar();
 	return 0;
 }
 

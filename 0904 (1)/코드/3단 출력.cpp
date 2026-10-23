@@ -13,5 +13,7 @@ int main(void)
 		printf("%d*%d=%2d",3,i,3*i);
 	}
 	printf("\n");
+	getchar();
+	getchar();
 	return 0;
 }

@@ -7,6 +7,8 @@ int main(void)
 	scanf("%c", &ch);
 	system("cls"); //화면을 지우고 입력한 문자만 출력 
 	printf("입력된 문자 %c\n", ch);
+	getchar();
+	getchar();
 	return 0;
 }
 

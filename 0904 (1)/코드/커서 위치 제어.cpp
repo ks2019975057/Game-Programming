@@ -7,6 +7,8 @@ int main(void)
 	printf("Hello");
 	gotoxy(40, 20);
 	printf("Hello");
+	getchar();
+	getchar();
 	return 0;
 }
 // "Hello" 가 (2,4), (40,20) 위치에 출력됨 
